@@ -28,7 +28,13 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     compile 'ai.api:sdk:2.0.7@aar'
-// api.ai SDK dependencies
-    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:26.+'
+    compile 'com.github.lguipeng:BubbleView:1.0.1'
+
 
 }
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
