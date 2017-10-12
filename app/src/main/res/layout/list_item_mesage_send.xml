@@ -17,7 +17,6 @@
     app:arrowPosition="14dp"
     app:arrowLocation="right"
     app:arrowCenter="true"
-    app:bubbleColor="7EC0EE"
     />
 
 </RelativeLayout>
